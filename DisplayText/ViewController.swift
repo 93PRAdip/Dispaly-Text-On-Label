@@ -21,6 +21,7 @@ class ViewController: UIViewController {
 
     @IBAction func setText(sender: AnyObject) {
         Label.text=TextField.text
+        self.resignFirstResponder()
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
